@@ -1,0 +1,95 @@
+body{
+    /* background-image: url(IMG-20240412-WA0060.jpg); */
+    background-color: wheat;
+    /* background: url(IMG-20240412-WA0066.jpg); */
+    /* background: url(IMG-20240412-WA0069.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
+}
+h2{
+    text-align: center;
+}
+input{
+    background-color: rgba(88, 194, 128, 0.23);
+    border: 3px solid rgba(255, 255, 255, 0.33);
+    border-left-width: 5px;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 1%;
+    outline: none;
+    font-weight: bolder;
+}
+input:invalid{
+    border-left-color: red;
+}
+input:valid{
+    border-left-color: green;
+}
+button{
+    display: flex;
+    margin: auto;
+    padding: 1% 5%;
+    margin-top: 10px;
+
+    background-image: linear-gradient(to right,rgb(107, 93, 93), rgb(4, 241, 4),rgb(102, 88, 88));
+    box-shadow: 0 0 5px black, 0 0 15px green,0 0 10px rgb(44, 42, 42);
+    border-radius: 30px;
+    font-weight: bolder;
+}
+label{
+    width: 150px;
+    display: block;
+    float: left;
+    font-size: large;
+    font-weight: bolder;
+    margin: 10px;
+}
+.inputs{
+    background-color: rgba(255, 255, 255, 0.23);
+    box-shadow: 0 0 10px gray;
+    width: fit-content;
+    padding: 1%;
+    border-radius: 10px;
+}
+.firstDiv{
+    width: 100%;
+    height: 60vh;
+    min-height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (min-width:508px) {
+    label{
+        color: brown;
+    }
+}
+@media only screen and (min-width:365px) and (max-width:507px) {
+    label{
+        color: rgb(134, 134, 11);
+        font-size: medium;
+        width: 110px;
+        font-weight: normal;
+    }
+    input{
+        width: 200px;
+    }
+}
+@media only screen and (max-width:364px) {
+    label{
+        color: rgb(23, 203, 235);
+        font-size: small;
+        width: 90px;
+        font-weight: lighter;
+    }
+    input{
+        width: 100px;
+    }
+    body{
+        min-width: 250px;
+    }
+}

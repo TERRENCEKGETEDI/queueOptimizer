@@ -1,0 +1,73 @@
+button{
+    background-color: red;
+    color: wheat;
+    font-weight: 1000;
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+    /* display: none; */
+    margin: auto;
+}
+p{
+    /* display: none; */
+    font-weight: 900;
+}
+button:hover{
+    box-shadow: 0 0 10px black;
+}
+div{
+    /* background-color: aqua; */
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+#inputDiv{
+    background-color: transparent;
+    border: 2px dotted;
+    padding: 2%;
+}
+#inputDiv input:nth-child(1){
+    width: 100%;
+    border: none;
+    border-bottom: 3px solid;
+    outline: none;
+}
+#inputDiv input:nth-child(4),input:nth-child(5){
+    margin-left: 8%;
+    width: 40%;
+}
+#inputDiv input:nth-child(4){
+    background-color: rgb(4, 255, 4);
+    border: none;
+    border-radius: 10px;
+    padding: 2%;
+    font-weight: 1000;
+}
+#inputDiv input:nth-child(5){
+    background-color: rgb(252, 0, 0);
+    border: none;
+    border-radius: 10px;
+    padding: 2%;
+    font-weight: 1000;
+}
+#inputDiv input:nth-child(4):hover{
+    box-shadow: 0 0 10px ;
+}
+#inputDiv input:nth-child(5):hover{
+    box-shadow: 0 0 10px;
+}
+#inputDiv input:nth-child(4):active{
+    box-shadow: 0 0 10px, 0 0 30px;
+}
+#inputDiv input:nth-child(5):active{
+    box-shadow: 0 0 10px, 0 0 30px;
+}
+.lists{
+    /* background-color: blue; */
+    padding-left: 3%;
+    padding-right: 3%;
+    
+    bottom: 1;
+}

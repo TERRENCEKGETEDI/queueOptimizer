@@ -1,0 +1,37 @@
+body{
+    background-color: wheat;
+    width: 100%;
+}
+button{
+    display: flex;
+    margin: auto;
+    padding: 1% 5%;
+    margin-top: 10px;
+
+    background-image: linear-gradient(to right,rgb(107, 93, 93), rgb(4, 241, 4),rgb(102, 88, 88));
+    box-shadow: 0 0 5px black, 0 0 15px green,0 0 10px rgb(44, 42, 42);
+    border-radius: 30px;
+    font-weight: bolder;
+}
+label{
+    text-align: center;
+    color: red;
+}
+@media only screen and (min-width:508px) {
+    h2{
+        font-size: x-large;
+    }
+}
+@media only screen and (min-width:365px) and (max-width:507px) {
+    h2{
+        font-size: medium;
+    }
+}
+@media only screen and (max-width:364px) {
+    h2{
+        font-size: small;
+    }
+    body{
+        min-width: 200px;
+    }
+}

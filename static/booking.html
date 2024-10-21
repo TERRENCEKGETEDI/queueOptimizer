@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="stylesheet" href="booking.css"/>
+</head>
+<body>
+
+
+    <h1 id="r"></h1>
+    <div id="display">
+        <h2 id="greetings"></h2><br><br><br>
+        <label for="date">Please select date you want to have an appointment</label><br>
+        <input type="date" name="" id="dateInput"><br>
+        <button onclick="registerDate()">save date</button>
+
+        <div id="timeSelection">
+            <label for="time" id="Estimated"></label><br>
+            <!-- <input type="time" name="" id="timeInput" min="08:00" max="15h00" /> -->
+            <select name="" id="time">
+                <option value="">Select Time</option>
+                <option value="08:00">08:00</option>
+                <option value="08:30">08:30</option>
+                <option value="09:00">09:00</option>
+                <option value="09:30">09:30</option>
+                <option value="10:00">10:00</option>
+                <option value="10:00">10:30</option>
+                <option value="11:00">11:00</option>
+                <option value="11:30">11:30</option>
+                <option value="12:00">12:00</option>
+                <option value="12:30">12:30</option>
+                <option value="13:00">13:00</option>
+                <option value="13:30">13:30</option>
+                <option value="14:00">14:00</option>
+                <option value="14:30">14:30</option>
+                <option value="15:00">15:00</option>
+                <option value="15:30">15:30</option>
+                <option value="16:00">16:00</option>
+            </select><br>
+            <button onclick="registerTime()">save time</button>
+            
+        </div>
+
+    </div>
+    <!-- <p id="r"></p> -->
+        <!-- <h2 id="greetings"></h2>
+    <label for="date">Please select date you want to have an appointment</label><br>
+    <input type="date" name="" id="time"><br>
+    <label for="time">Estimated time of arrival</label><br>
+    <input type="time" name="" id="time"> -->
+
+
+    <!-- <button onclick="submit()">VIEW</button> -->
+    <!-- <script src="booking.js"></script> -->
+    <script src="book.js"></script>
+</body>
+</html>
